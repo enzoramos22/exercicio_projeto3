@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-3"> EBAC Games </h1>
+            <button class="navbar-toggler mb-3"  data-bs-toggle="collapse" data-bs-target="menu-navegaçao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegaçao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                        <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                        <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#jogos" class="nav-link">
+                        <i class="bi bi-card-text me-1"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                        <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="header" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="https://cdn.pixabay.com/photo/2017/03/18/16/23/nintendo-switch-2154437_1280.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://cdn.pixabay.com/photo/2020/05/17/11/08/nes-5181088_1280.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://cdn.pixabay.com/photo/2020/01/13/00/08/space-invaders-4761337_1280.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://cdn.pixabay.com/photo/2017/01/28/02/24/japan-2014618_1280.jpg"  class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2> Sobre a <span class="texto-laranja">loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat est nulla corrupti, cumque suscipit doloribus asperiores totam eveniet ipsam incidunt soluta facere atque esse et temporibus consequatur laudantium recusandae eligendi.
+                            </p>
+                            <h3>Sobre o espaço</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A provident, nulla inventore error, nobis quos necessitatibus modi iste neque possimus ipsum sit, similique esse officia illo reprehenderit cupiditate molestias recusandae!
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="texto-laranja">as ocasioes</span> </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://cdn.pixabay.com/photo/2017/12/24/13/21/portrait-3036880_1280.jpg" alt="Foto de uma cosplayer" class="d-block w-100 rounded mb-3">
+                        <h3 class="section-title fs-4 texto-laranja">
+                            <i class="bi bi-camera-reels-fill"></i>
+                            Festival de cosplay
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore error animi quaerat ea libero. Doloribus adipisci, fuga provident aperiam iusto nulla voluptatum praesentium earum ea quidem minus suscipit quod optio!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://cdn.pixabay.com/photo/2017/04/13/18/48/comic-con-2228405_1280.jpg" alt="Foto de um casamento" class="d-block w-100 rounded mb-3">
+                        <h3 class="section-title fs-4 texto-laranja">
+                            <i class="bi bi-house-up-fill"></i>
+                            Campeonatos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore error animi quaerat ea libero. Doloribus adipisci, fuga provident aperiam iusto nulla voluptatum praesentium earum ea quidem minus suscipit quod optio!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://cdn.pixabay.com/photo/2016/07/30/15/38/video-games-1557358_1280.jpg" alt="Foto de um confraternização" class="d-block w-100 rounded mb-3">
+                        <h3 class="section-title fs-4 texto-laranja">
+                            <i class="bi bi-nintendo-switch"></i>
+                            Lançamentos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore error animi quaerat ea libero. Doloribus adipisci, fuga provident aperiam iusto nulla voluptatum praesentium earum ea quidem minus suscipit quod optio!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="jogos" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5"> 
+                        Nossos <span class="texto-laranja"> jogos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab"  data-bs-target="#lançamentos" class="fw-bold text-start nav-link texto-laranja active">Laçamentos</button>
+                            <button type="button" data-bs-toggle="tab"  data-bs-target="#jogos-de-ação" class="fw-bold text-start nav-link texto-laranja">Jogos de ação</button>
+                            <button type="button" data-bs-toggle="tab"  data-bs-target="#jogos-de-aventura" class="fw-bold text-start nav-link texto-laranja">Jogos de aventura</button>
+                            <button type="button" data-bs-toggle="tab"  data-bs-target="#jogos-de-esporte" class="fw-bold text-start nav-link texto-laranja">Jogos de esporte</button>
+                            <button type="button" data-bs-toggle="tab"  data-bs-target="#jogos-de-corrida" class="fw-bold text-start nav-link texto-laranja">Jogos de corrida</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="lançamentos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2022/11/04/05/11/soldier-7569040_1280.jpg" alt="Lançamentos">
+                                        <h5  class="fw-bold mt-2" >Lançamentos</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2015/08/18/01/54/video-games-893225_1280.jpg" alt="Lançamentos">
+                                        <h5  class="fw-bold mt-2" >Lançamentos</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2022/11/04/05/11/soldier-7569040_1280.jpg" alt="Lançamentos">
+                                        <h5  class="fw-bold mt-2" >Lançamentos</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2015/08/18/01/54/video-games-893225_1280.jpg" alt="Lançamentos">
+                                        <h5  class="fw-bold mt-2" >Lançamentos</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2022/11/04/05/11/soldier-7569040_1280.jpg" alt="Lançamentos">
+                                        <h5  class="fw-bold mt-2" >Lançamentos</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2015/08/18/01/54/video-games-893225_1280.jpg" alt="Lançamentos">
+                                        <h5  class="fw-bold mt-2" >Lançamentos</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jogos-de-ação">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/computer-games-6578101_640.jpg" alt="Ação">
+                                        <h5  class="fw-bold mt-2" >Ação</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/computer-games-6578101_640.jpg" alt="Ação">
+                                        <h5  class="fw-bold mt-2" >Ação</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jogos-de-aventura">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/computer-games-6578102_1280.jpg" alt="Entrada">
+                                        <h5  class="fw-bold mt-2" >Aventura</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/computer-games-6578102_1280.jpg" alt="Entrada">
+                                        <h5  class="fw-bold mt-2" >Aventura</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jogos-de-esporte">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/video-game-6578106_640.jpg" alt="Esporte">
+                                        <h5  class="fw-bold mt-2" >Esporte</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/video-game-6578106_640.jpg" alt="Esporte">
+                                        <h5  class="fw-bold mt-2" >Esporte</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jogos-de-corrida">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/computer-games-6578103_1280.jpg" alt="Corrida">
+                                        <h5  class="fw-bold mt-2" >Corrida</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/computer-games-6578103_1280.jpg" alt="Corrida">
+                                        <h5  class="fw-bold mt-2" >Corrida</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/computer-games-6578103_1280.jpg" alt="Corrida">
+                                        <h5  class="fw-bold mt-2" >Corrida</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/computer-games-6578103_1280.jpg" alt="Corrida">
+                                        <h5  class="fw-bold mt-2" >Corrida</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/computer-games-6578103_1280.jpg" alt="Corrida">
+                                        <h5  class="fw-bold mt-2" >Corrida</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2021/08/27/08/21/computer-games-6578103_1280.jpg" alt="Corrida">
+                                        <h5  class="fw-bold mt-2" >Corrida</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="texto-laranja">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold texto-laranja">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold texto-laranja">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold texto-laranja">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold texto-laranja">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 texto-laranja">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook texto-laranja"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram texto-laranja"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp texto-laranja"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 texto-laranja">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua teste n°123, Bairro teste 2 - São paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
